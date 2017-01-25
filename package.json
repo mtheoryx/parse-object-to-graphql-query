@@ -1,0 +1,24 @@
+{
+  "name": "parse-object-to-graphql-query",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mtheoryx@github.com/mtheoryx/parse-object-to-graphql-query.git"
+  },
+  "keywords": [],
+  "author": "David R Poindexter III <drpoindexter@gmail.com> (http://vcard.davidrpoindexter.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtheoryx/parse-object-to-graphql-query/issues"
+  },
+  "homepage": "https://github.com/mtheoryx/parse-object-to-graphql-query#readme",
+  "devDependencies": {
+    "nodemon": "1.11.0"
+  }
+}

@@ -20,5 +20,8 @@
   "homepage": "https://github.com/mtheoryx/parse-object-to-graphql-query#readme",
   "devDependencies": {
     "nodemon": "1.11.0"
+  },
+  "dependencies": {
+    "graphql-query-builder": "1.0.6"
   }
 }

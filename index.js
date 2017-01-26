@@ -1,3 +1,15 @@
-console.log('It worked');
+console.log('\033[2J');
 
-console.log('It worked again!');
+
+
+// Desired Result
+// `{
+//     documents(category: "510k") {
+//         name
+//         currentRevision {
+//             category {
+//                 displayName
+//             }
+//         }
+//     }
+// }`;

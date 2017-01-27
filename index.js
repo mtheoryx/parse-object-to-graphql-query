@@ -2,7 +2,11 @@
 
 const Query = require('graphql-query-builder');
 
-const documents = new Query('documents', { category: '510k' });
+const queryFilter = { category: '510k' };
+
+const documents = new Query('documents', queryFilter);
+
+
 const category = new Query('category');
 const currentRevision = new Query('currentRevision');
 
@@ -12,6 +16,7 @@ documents.find(['name', currentRevision.find(category.find(['displayName']))]);
 
 const res = `{` + `${documents}` + `}`;
 console.log(res);
+
 
 // Desired Result
 // `{

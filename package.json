@@ -2,10 +2,10 @@
   "name": "parse-object-to-graphql-query",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "query-builder.js",
   "scripts": {
     "test": "jest",
-    "start": "nodemon --watch index.js"
+    "start": "nodemon --watch query-builder.js"
   },
   "repository": {
     "type": "git",
